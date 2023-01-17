@@ -8,5 +8,12 @@ def index(request):
 def home(request):
     return HttpResponse("hellooo web devloper")
 
+
+def january(request):
+    return HttpResponse("happy new year !")
+
+def febrbuary(request):
+    return HttpResponse("Birth day of cha.shivaji maharaj !")
+
 # def home(request):
 #     return render(request,'home.html',{'name':'ADCET'})

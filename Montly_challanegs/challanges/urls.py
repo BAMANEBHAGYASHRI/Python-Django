@@ -6,6 +6,8 @@ urlpatterns=[
     # path("",views.january,name="january"),
     # path("febrbuary",views.febrbuary,name="febrbuary"),
 
+
+    # path converts
     path("<int:month>",views.montly_challanges_by_number),
     path("<month>",views.monthly_challanges)
     
